@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ba4ecd-1f26-4be2-b6ac-e77874930e75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="c5ba4ecd-1f26-4be2-b6ac-e77874930e75" name="Changes" comment="Added two days in Selenium project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,104 +36,143 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BasicNavigations.executor": "Run",
-    "Application.HWP1_Ebay_Search_Title.executor": "Run",
-    "Application.HWP1_Etsy_Search_Title.executor": "Run",
-    "Application.HWP1_FolioSociety_Search_Title.executor": "Debug",
-    "Application.HWP2_Zerobank_Header.executor": "Run",
-    "Application.HWP4_Class_Locator_Practice.executor": "Run",
-    "Application.SeleniumTest.executor": "Run",
-    "Application.T1_CydeoVerifications.executor": "Run",
-    "Application.T4_Library_Practice.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/sveta/IdeaProjects/selenium-project/src/main/java/cydeo/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AboutUsLink01Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicNavigations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HWP1_Ebay_Search_Title.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HWP1_Etsy_Search_Title.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HWP1_FolioSociety_Search_Title.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HWP2_Zerobank_Header.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HWP4_Class_Locator_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HWP4_Link_XPath_CSS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextBaseCRM.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_CydeoVerifications.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_xpath_cssSelector_practices.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.T2_FindElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T2_LocatorsGetTextGetAttributePractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T3_radio_button_utility_method.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T4_Library_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VytrackLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenium-project [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.Checkboxes03Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Dropdowns_T6_T7_T8.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LearningProperties.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_WindowsHandling.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_TestNG_Selenium_Intro.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_TestNG_Selenium_Intro.test1_cydeo_title_verification.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_iFrame.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T5_WindowsPractice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T5_dropdown_intro.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablePractice.web_table_test.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/sveta/IdeaProjects/selenium-project/src/main/java/cydeo/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.HWP4_Class_Locator_Practice">
-    <configuration name="HWP1_Ebay_Search_Title" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.practice.day02.HWP1_Ebay_Search_Title" />
+}</component>
+  <component name="RunManager" selected="TestNG.LearningProperties">
+    <configuration name="Checkboxes03Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.practice.day02.*" />
+          <option name="PATTERN" value="com.cydeo.avengers.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.avengers.week1" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.avengers.week1.Checkboxes03Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HWP1_Etsy_Search_Title" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day02_locators_getText_getAttribute.HWP1_Etsy_Search_Title" />
+    <configuration name="LearningProperties" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day02_locators_getText_getAttribute.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day08_properties_config_reader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.LearningProperties" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HWP1_FolioSociety_Search_Title" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.practice.day02.HWP1_FolioSociety_Search_Title" />
+    <configuration name="T1_WindowsHandling" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.practice.day02.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day07_webtables_utilities_javafaker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day07_webtables_utilities_javafaker" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day07_webtables_utilities_javafaker.T1_WindowsHandling" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HWP2_Zerobank_Header" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day02_locators_getText_getAttribute.HWP2_Zerobank_Header" />
+    <configuration name="T4_iFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day02_locators_getText_getAttribute.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T4_iFrame" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HWP4_Class_Locator_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day02_locators_getText_getAttribute.HWP4_Class_Locator_Practice" />
+    <configuration name="T5_WindowsPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day02_locators_getText_getAttribute.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_WindowsPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HWP4_Class_Locator_Practice" />
-        <item itemvalue="Application.HWP2_Zerobank_Header" />
-        <item itemvalue="Application.HWP1_FolioSociety_Search_Title" />
-        <item itemvalue="Application.HWP1_Ebay_Search_Title" />
-        <item itemvalue="Application.HWP1_Etsy_Search_Title" />
+        <item itemvalue="TestNG.LearningProperties" />
+        <item itemvalue="TestNG.T1_WindowsHandling" />
+        <item itemvalue="TestNG.T5_WindowsPractice" />
+        <item itemvalue="TestNG.T4_iFrame" />
+        <item itemvalue="TestNG.Checkboxes03Test" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +198,20 @@
       <workItem from="1707921821256" duration="2444000" />
       <workItem from="1708126824978" duration="11609000" />
       <workItem from="1708197901858" duration="1616000" />
+      <workItem from="1708207612275" duration="373000" />
+      <workItem from="1708269927991" duration="60311000" />
+      <workItem from="1709226001717" duration="640000" />
+      <workItem from="1709260593440" duration="8831000" />
     </task>
+    <task id="LOCAL-00001" summary="Added two days in Selenium project">
+      <option name="closed" value="true" />
+      <created>1708207885180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708207885181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +228,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added two days in Selenium project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added two days in Selenium project" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -191,6 +244,30 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/practice/day02/HWP1_FolioSociety_Search_Title.java</url>
           <line>17</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03_cssSelector_xpath/T1_NextBaseCRM.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04_findElements_checkbox/T2_FindElements.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04_findElements_checkbox/T1_xpath_cssSelector_practices.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day6_alerts_iframes_windows/T4_iFrame.java</url>
+          <line>31</line>
+          <properties class="com.cydeo.tests.day6_alerts_iframes_windows.T4_iFrame" method="iframe_test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
